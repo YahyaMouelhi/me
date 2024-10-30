@@ -102,6 +102,11 @@ canvas {
     .link {
       font-size: 4vw;
     }
+     .image{
+        height : 80px ;
+        width : 80px ;
+        padding: 5%;
+     }
   }
   
   @media screen and (max-width: 769px) {
@@ -123,6 +128,7 @@ canvas {
     .image{
       width: 100px;
        height :100px ;
+       padding: 10%;
     }
   }
   
