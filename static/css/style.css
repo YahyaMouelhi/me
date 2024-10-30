@@ -30,8 +30,8 @@ canvas {
 
   .image {
     border-radius: 50%; 
-    height: 360px;
-    width: 360px;
+    height: 280px;
+    width: 280px;
     padding: 10%;
     object-fit: cover;   
   }
@@ -91,22 +91,17 @@ canvas {
   
   @media screen and (max-width: 785px) {
     .header1 {
-      font-size: 8vw;
+      font-size: 8.5vw;
     }
     .header4{
-      font-size: 6vw;
+      font-size: 6.5vw;
     }
     .header3{
-      font-size: 6vw;
+      font-size: 6.5vw;
     }
     .link {
-      font-size: 4vw;
+      font-size: 4.5vw;
     }
-     .image{
-        height : 80px ;
-        width : 80px ;
-        padding: 5%;
-     }
   }
   
   @media screen and (max-width: 769px) {
@@ -114,38 +109,39 @@ canvas {
       text-align: center;
     }
     .header1 {
-      font-size: 9vw;
+      font-size: 10vw;
     }
     .header2 {
-      font-size: 2.5vw;
+      font-size: 3vw;
     }
     .header4 {
-      font-size: 2.5vw;
+      font-size: 3vw;
     }
     .link1 {
-      font-size: 5vw;
+      font-size: 5.5vw;
     }
-    .image{
-      width: 100px;
-       height :100px ;
-       padding: 10%;
-    }
+     .image{
+        height : 160px ;
+        width : 160px ;
+        padding: 5%;
+     }
   }
   
   @media screen and (min-width: 770px and max-width : 1389px ){
     .image{
-      width: 220px;
-      height : 220px ;
+      width: 200px;
+      height : 200px ;
+       padding: 7.5%;
     }
   }
   
 
   @media screen and (min-width: 1390px) {
     .header2 {
-      font-size: 1.1vw;
+      font-size: 1.2vw;
     }
     .image{
-      width: 300px;
-      height :300px;
+      width: 320px;
+      height : 320px;
     }
   }
