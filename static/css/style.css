@@ -104,7 +104,7 @@ canvas {
     }
   }
   
-  @media screen and (max-width: 765px) {
+  @media screen and (max-width: 769px) {
     body {
       text-align: center;
     }
@@ -126,10 +126,10 @@ canvas {
     }
   }
   
-  @media screen and (min-width: 765px){
+  @media screen and (min-width: 770px and max-width : 1389px ){
     .image{
-      width: 260px;
-      height : 260px ;
+      width: 220px;
+      height : 220px ;
     }
   }
   
