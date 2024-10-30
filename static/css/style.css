@@ -127,11 +127,19 @@ canvas {
      }
   }
   
-  @media screen and (min-width: 770px and max-width : 1389px ){
+@media screen and (min-width: 1260px and max-width : 1389px ){
     .image{
       width: 200px;
       height : 200px ;
        padding: 7.5%;
+    }
+  }  
+        
+@media screen and (min-width: 770px and max-width : 1259px ){
+    .image{
+      width: 150px;
+      height : 150px ;
+       padding: 6%;
     }
   }
   
