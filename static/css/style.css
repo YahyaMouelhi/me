@@ -30,13 +30,12 @@ canvas {
 
   .image {
     border-radius: 50%; 
-    width: 320px;
+    height: 360px;
+    width: 360px;
     padding: 10%;
     object-fit: cover;   
   }
 
-  
-  
   .header1 {
     font-family: 'Righteous', cursive;
     font-size: 6vw;
@@ -128,7 +127,8 @@ canvas {
   
   @media screen and (min-width: 765px){
     .image{
-      width: 300px;
+      width: 260px;
+      height : 260px ;
     }
   }
   
@@ -138,6 +138,7 @@ canvas {
       font-size: 1.1vw;
     }
     .image{
-      width: 340px;
+      width: 360px;
+      height :360px;
     }
   }
