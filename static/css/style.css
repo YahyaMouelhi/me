@@ -33,7 +33,11 @@ canvas {
     height: 340px;
     width: 340px;
     padding: 10%;
+     object-fit: cover; 
+     
   }
+
+  
   
   .header1 {
     font-family: 'Righteous', cursive;
@@ -83,6 +87,10 @@ canvas {
   .l5:hover {
     color: #8b8d00;
   }
+
+   .l6:hover {
+      color : red ;
+   }
   
   @media screen and (max-width: 785px) {
     .header1 {
